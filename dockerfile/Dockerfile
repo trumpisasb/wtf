@@ -34,7 +34,7 @@ RUN set -ex; \
                    libnss3; \
       \
       # clone jd seckill code.
-      git clone -b $GIT_BRANCH git@github.com:trumpisasb/jd_seckill.git /app; \
+      git clone -b $GIT_BRANCH git@github.com:trumpisasb/wtf.git /app; \
       cd /app \
         && rm -rf .git; \
       \
